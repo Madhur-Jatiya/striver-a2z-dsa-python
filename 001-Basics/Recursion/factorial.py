@@ -4,7 +4,7 @@
 def factorial_using_recursion(number):
 
     if number == 0:
-        return 0
+        return 1
     if number == 1:
         return 1
     elif number < 1:
@@ -19,9 +19,7 @@ def factorial(number):
 
     sign = 1
 
-    if number == 0:
-        return 0
-    elif number < 1:
+    if number < 0:
         sign = -1
     else:
         sign = 1
