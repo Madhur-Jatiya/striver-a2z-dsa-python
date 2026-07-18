@@ -8,8 +8,10 @@ def check_amstrong_number(number) -> bool:
 
     amstrong_number = 0
 
-    for i in num_list:
-        amstrong_number = amstrong_number + (i**digit_count)
+    # for digit in num_list:
+    #     amstrong_number = amstrong_number + (digit**digit_count)
+
+    amstrong_number = sum(digit**digit_count for digit in num_list)
 
     return number == amstrong_number
 
