@@ -1,7 +1,7 @@
 # Check Palindrome Number
 
 
-def palindrome_number(number) -> bool:
+def check_palindrome_number(number) -> bool:
 
     temp_number = number
 
@@ -20,7 +20,7 @@ def palindrome_number(number) -> bool:
 def main():
     try:
         number = int(input("Enter a number: "))
-        print("Is Palindrome =", palindrome_number(number))
+        print("Is Palindrome Number =", check_palindrome_number(number))
     except ValueError as e:
         print("Please enter a valid integer number.")
         print("Error: ", e)
