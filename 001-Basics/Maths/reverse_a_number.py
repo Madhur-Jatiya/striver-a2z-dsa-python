@@ -1,7 +1,7 @@
 # Reverse a Number
 
 
-def reverse_number(number):
+def reverse_number(number) -> int:
 
     if number == 0:
         return 0
@@ -18,7 +18,6 @@ def reverse_number(number):
         rev_number = (rev_number * 10) + (number % 10)
         number = number // 10
 
-    print("sign ", sign)
     return rev_number * sign
 
 

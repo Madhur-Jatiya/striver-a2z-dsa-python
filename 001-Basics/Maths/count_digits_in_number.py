@@ -19,7 +19,7 @@ def count_digits(number):
     return count
 
 
-def count_digits_optimal(number):
+def count_digits_optimal(number) -> int:
     number = abs(number)
 
     if number == 0:
