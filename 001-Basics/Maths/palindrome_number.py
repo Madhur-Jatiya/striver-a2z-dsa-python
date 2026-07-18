@@ -3,10 +3,10 @@
 
 def palindrome_number(number) -> bool:
 
-    temp_number = abs(number)
+    temp_number = number
 
-    if temp_number == 0:
-        return True
+    if temp_number < 0:
+        return False
 
     rev_number = 0
 

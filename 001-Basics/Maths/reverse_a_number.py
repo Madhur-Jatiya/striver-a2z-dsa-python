@@ -3,12 +3,7 @@
 
 def reverse_number(number) -> int:
 
-    if number == 0:
-        return 0
-    elif number > 0:
-        sign = 1
-    else:
-        sign = -1
+    sign = 1 if number > 0 else -1
 
     number = abs(number)
 
