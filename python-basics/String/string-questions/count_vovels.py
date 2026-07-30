@@ -9,3 +9,13 @@ for char in s:
         count += 1
 
 print(count)
+
+
+# ====================================================
+
+
+s = "programming"
+
+count = sum(1 for char in s if char in "aeiou")
+
+print(count)
